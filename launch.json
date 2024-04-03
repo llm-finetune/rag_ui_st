@@ -8,10 +8,10 @@
             "name": "debug streamlit",
             "type": "debugpy",
             "request": "launch",
-            "program": "/home/ankit/llm-examples/.venv/bin/streamlit",
+            "program": "${userHome}/rag_ui_st/.venv/bin/streamlit",
             "args": [
                 "run",
-                "/home/ankit/llm-examples/Chatbot.py"
+                "${userHome}/rag_ui_st/Chatbot.py"
             ]
         }
     ]
